@@ -31,7 +31,7 @@
   </tag>
   <action>deny</action>
 </entry>
-<entry name="{{edl_nme}}-out">
+<entry name="{{edl_name}}-out">
   <to>
     <member>any</member>
   </to>
