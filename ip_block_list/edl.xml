@@ -1,4 +1,4 @@
-  <entry name=" {{ edl_name }} ">
+  <entry name="{{ edl_name }}">
     <type>
       <ip>
         <recurring>
