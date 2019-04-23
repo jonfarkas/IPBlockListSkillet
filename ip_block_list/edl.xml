@@ -2,7 +2,7 @@
     <type>
       <ip>
         <recurring>
-          <five-minute>
+          <five-minute/>
         </recurring>
         <description>{{ edl_description }}</description>
         <url>{{ url }}</url>
