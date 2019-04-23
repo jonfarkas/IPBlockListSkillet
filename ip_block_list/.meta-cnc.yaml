@@ -22,41 +22,36 @@ labels:
 # type_hint defines the form field used by panhandler
 # type_hints can be text, ip_address, or dropdown
 variables:
-  - name: skillet_name
-    description: Skillet ID
-    default: mySkillet
+  - name: tag_name
+    description: Tag Name
+    default: tagName
     type_hint: text
-  - name: skillet_label
-    description: Skillet label (selection name in panhandler)
-    default: my_skillet_label
-    type_hint: text
-  - name: skillet_description
-    description: Skillet Description
-    default: this is what my skillet does
-    type_hint: text
-  - name: collection_name
-    description: Collection Name (aka grouping name)
-    default: myCollection
-    type_hint: text
-  - name: skillet_type
-    description: Skillet type (action taken by panhandler on Submit)
-    default: panos
+  - name: tag_color
+    description: Choose a color
+    default: Red
     type_hint: dropdown
     dd_list:
-      - key: panos
-        value: panos
-      - key: panorama
-        value: panorama
-      - key: panorama-gpcs
-        value: panorama-gpcs
-      - key: template
-        value: template
-      - key: rest
-        value: rest
-      - key: python
-        value: python
-      - key: terraform
-        value: terraform
+      - key: Red
+        value: color1
+      - key: Blue
+        value: color3
+      - key: Green
+        value: color2
+  - name: tag_description
+    description: Tag Description
+    default: text here
+    type_hint: text
+  - name: edl_name
+    description: EDL Name
+    type_hint: text
+  - name: edl_description
+    description: EDL Description
+    type_hint: text
+  - name: url
+    description: EDL URL
+    default: http://utterpants.com
+    type_hint: text
+
 
 # snippets used for api configuration including xpath and element as file name
 # files will load in the order listed
