@@ -9,7 +9,7 @@ description: Used in panhandler to generate a .meta-cnc.yaml skeleton file
 
 # type of device configuration
 # common types are panorama, panos, and template
-type: template
+type: panos
 # preload static or default-based templates
 extends:
 
