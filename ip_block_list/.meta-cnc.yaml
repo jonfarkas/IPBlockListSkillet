@@ -2,7 +2,7 @@
 # https://github.com/PaloAltoNetworks/panhandler/blob/develop/docs/metadata_configuration.rst
 
 # unique snippet name
-name: skeleton_yaml_file_xml
+name: yaml_file_xml
 # label used for menu selection
 label: yaml metafile
 description: Used in panhandler to generate a .meta-cnc.yaml skeleton file
